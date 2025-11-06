@@ -1,0 +1,5 @@
+streamlit
+requests
+gradio_client
+pillow
+streamlit_mic_recorder
