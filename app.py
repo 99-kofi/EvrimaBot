@@ -14,7 +14,7 @@ import tempfile
 from streamlit_mic_recorder import mic_recorder
 
 # --- Configuration ---
-GEMINI_API_KEY = "AIzaSyDpAmrLDJjDTKi7TD-IS3vqQlBAYVrUbv4" # <-- IMPORTANT: REPLACE THIS
+GEMINI_API_KEY = "AIzaSyBrUHY2murE_h6JS_QPnnEEOPCCna3ZIPk" # <-- IMPORTANT: REPLACE THIS
 MODEL_NAME = "gemini-2.0-flash"
 TTS_MODEL = "Ghana-NLP/Southern-Ghana-TTS-Public"
 STT_MODEL = "DarliAI/Evaluation" # <-- Re-adding the specialized Twi STT model
