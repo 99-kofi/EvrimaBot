@@ -41,7 +41,7 @@ TWI_ERRORS = {
 # Load the logo image
 try:
     # Assuming the logo file is named 'evrimabot_logo.png'
-    logo = Image.open("evrimabot_logo.png")
+    logo = Image.open("ev.png")
     st.set_page_config(page_title="EvrimaBot", page_icon=logo, layout="centered")
 except FileNotFoundError:
     # If the logo file is not found, fall back to the emoji
@@ -110,8 +110,8 @@ def translate_text(text_to_translate, target_language="English"):
 
 # --- Main Application Logic ---
 st.title("🇬🇭 EvrimaBot — Your AI Assistant that speak and hears your language")
-st.caption("O- Omniscient • B- Bilingual • A- Akan • L- LLM • A- Agent")
-st.caption("From WAIT ❤")
+#st.caption("O- Omniscient • B- Bilingual • A- Akan • L- LLM • A- Agent")
+#st.caption("From WAIT ❤")
 st.info("You can type your prompts in either Twi or English.")
 
 tts_client = init_tts_client()
